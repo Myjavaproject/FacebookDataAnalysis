@@ -29,8 +29,7 @@ public class PostsFromPageExtractor {
         {
             feedId=args[0];
         }
-
-        int currentCount = 0;
+        ////int currentCount = 0;
         try {
             PrintWriter postWriter = new PrintWriter(feedId + "_post.json", "UTF-8");
             PrintWriter commentWriter = new PrintWriter(feedId + "_comment.json", "UTF-8");
